@@ -5,22 +5,22 @@ import character.entity.CharacterStyle;
 public class WarBuilder extends CharacterBuilder {
 
     @Override
-    void buildStyle() {
+    public void buildStyle() {
         this.character.setStyle(CharacterStyle.WAR);
     }
 
     @Override
-    void buildStrength() {
+    public void buildStrength() {
         this.character.setStrength(100);
     }
 
     @Override
-    void buildIntelect() {
+    public void buildIntelect() {
         this.character.setIntellect(20);
     }
 
     @Override
-    void buildAgility() {
+    public void buildAgility() {
         this.character.setAgility(20);
     }
 }

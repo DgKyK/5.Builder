@@ -4,22 +4,22 @@ import character.entity.CharacterStyle;
 
 public class WizardBuilder extends CharacterBuilder {
     @Override
-    void buildStyle() {
+    public void buildStyle() {
         this.character.setStyle(CharacterStyle.WIZARD);
     }
 
     @Override
-    void buildStrength() {
+    public void buildStrength() {
         this.character.setStrength(20);
     }
 
     @Override
-    void buildIntelect() {
+    public void buildIntelect() {
         this.character.setIntellect(100);
     }
 
     @Override
-    void buildAgility() {
+    public void buildAgility() {
         this.character.setAgility(20);
     }
 }

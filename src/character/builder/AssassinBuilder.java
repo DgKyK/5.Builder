@@ -4,22 +4,22 @@ import character.entity.CharacterStyle;
 
 public class AssassinBuilder extends CharacterBuilder {
     @Override
-    void buildStyle() {
+    public void buildStyle() {
         this.character.setStyle(CharacterStyle.ASSASSIN);
     }
 
     @Override
-    void buildStrength() {
+    public void buildStrength() {
         this.character.setStrength(50);
     }
 
     @Override
-    void buildIntelect() {
+    public void buildIntelect() {
         this.character.setIntellect(20);
     }
 
     @Override
-    void buildAgility() {
+    public void buildAgility() {
         this.character.setAgility(100);
     }
 }
